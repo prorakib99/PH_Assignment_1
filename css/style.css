@@ -5,7 +5,7 @@
 
 /* Header Section Style */
 .header-section {
-    background-image: url(/images/banner/banner1.png);
+    background-image: url(../images/banner/banner1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -45,6 +45,7 @@
     font-size: 20px;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 /* Mail Section Style */
@@ -196,10 +197,11 @@ section {
     margin-bottom: 24px;
 }
 
-footer .section-description {
+footer .section-description, footer .section-description a {
     color: #FFFFFF;
     margin-bottom: 24px;
     margin-top: 0;
+    text-decoration: none;
 }
 
 .social-icon {
