@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    font-family: 'Work Sans';
 }
 
 /* Header Section Style */
@@ -22,14 +23,12 @@
 }
 
 .header-title {
-    font-family: 'Work Sans';
     font-weight: 700;
     font-size: 65px;
     line-height: 76px;
 }
 
-.header-description {
-    font-family: 'Work Sans';
+.header-description {  
     font-weight: 400;
     font-size: 16px;
     color: #444343;
@@ -42,7 +41,6 @@
     padding: 20px 25px;
     background-color: #F15B22;
     color: white;
-    font-family: 'Work Sans';
     font-weight: 600;
     font-size: 20px;
     border: none;
@@ -64,21 +62,11 @@ section {
     align-items: center;
     gap: 85px;
 }
-
-.failures-image {
-    width: ;
-}
-
-.failures-image img {
-    
-}
-
 .failures-content {
     width: 40%;
 }
 
-.section-title {
-    font-family: 'Work Sans';
+.section-title {  
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
@@ -88,8 +76,7 @@ section {
     margin-top: 25px;
     margin-bottom: 15px;
 }
-.section-description, .failures-list li {
-    font-family: 'Work Sans';
+.section-description, .failures-list li {  
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
@@ -110,4 +97,35 @@ section {
     margin-right: 10px;
     width: 24px;
     height: 24px;
+}
+
+/* Plan Section Style */
+.plan-section {
+    text-align: center;
+}
+
+.plan-section .section-title {
+    margin-bottom: 50px;
+}
+
+.plan-item-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.plan-item-title {  
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #151414;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.plan-item-description {    
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: #737272;
 }
