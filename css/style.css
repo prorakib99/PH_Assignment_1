@@ -1,3 +1,50 @@
 * {
     margin: 0;
 }
+
+/* Header Section Style */
+.header-section {
+    background-image: url(/images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.header-container {
+    text-align: right;
+    width: 32%;
+    margin-right: 230px;
+}
+
+.header-title {
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+}
+
+.header-description {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    line-height: 26px;
+    margin-top: 24px;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    padding: 20px 25px;
+    background-color: #F15B22;
+    color: white;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
